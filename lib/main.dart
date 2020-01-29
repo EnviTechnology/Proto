@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
           onLongPressMoveUpdate: _onLongPressMoveUpdate,
           child: Center(
             child: FlutterShine(
-              config: Config(shadowColor: Colors.cyan),
+              config: Config(shadowColor: Colors.cyan[800]),
               light: Light(intensity: 1, position: Point(x, y)),
               builder: (BuildContext context, ShineShadow shineShadow) {
                 return Column(
@@ -42,8 +42,9 @@ class _MyAppState extends State<MyApp> {
                     Text(
                       "Envi",
                       style: TextStyle(
-                          fontSize: 130,
-                          color: Colors.grey[350],
+                          fontFamily: "JetBrainsMono",
+                          fontSize: 150,
+                          color: Colors.grey,
                           shadows: shineShadow?.shadows),
                     ),
                   ],

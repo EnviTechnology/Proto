@@ -41,6 +41,15 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  fonts: 
+    - family: JetBrainsMono
+      fonts:
+        - asset: fonts/JetBrainsMono-Regular.ttf
+        - asset: fonts/JetBrainsMono-Bold.ttf
+          weight: 700
+        - asset: fonts/JetBrainsMono-Italic.ttf
+          style: italic
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
@@ -58,7 +67,7 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  #   - family: Schyler
+  #   - family: Scqhyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
